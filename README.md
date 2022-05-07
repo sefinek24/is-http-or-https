@@ -1,6 +1,6 @@
 ## 🌍 What is that?
 **EN:** The package checks the string for a keyword related to http or https.  
-**PL:** Pakiet ten sprawdza ciąg znaków pod kątem słowa kluczowego związanego z protokołem http lub https.
+**PL:** Moduł ten sprawdza ciąg znaków pod kątem słowa kluczowego związanego z protokołem http lub https.
 
 ## 📝 Examples
 ```js
