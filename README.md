@@ -1,8 +1,11 @@
-## 🌍 What is that?
+## 🌍 » What is that?
 **EN:** The package checks the string for a keyword related to http or https.  
 **PL:** Moduł ten sprawdza ciąg znaków pod kątem słowa kluczowego związanego z protokołem http lub https.
 
-## 📝 Examples
+## 🤔 » How to install?
+> **$** npm install is-http-or-https
+
+## 📝 » Examples
 ```js
 const checkUrl = require('./index.js');
 
@@ -13,5 +16,5 @@ console.log(checkUrl.http(url)); // Boolean => false
 console.log(checkUrl.https(url)); // Boolean => true
 ```
 
-## 🤝 Help
+## 🤝 » Help
 Open new <a href="https://github.com/sefinek24/is-http-or-https/issues/new/choose" target="_blank">Issue</a> on Github.
