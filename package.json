@@ -1,0 +1,25 @@
+{
+  "name": "is-http-or-https",
+  "version": "0.0.1",
+  "description": "The package checks the string for a keyword related to http or https.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/is-http-or-https.git"
+  },
+  "keywords": [
+    "http",
+    "or",
+    "https",
+    "protocol"
+  ],
+  "author": "Sefinek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/is-http-or-https/issues"
+  },
+  "homepage": "https://github.com/sefinek24/is-http-or-https#readme"
+}
