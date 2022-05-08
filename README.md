@@ -12,8 +12,8 @@ const checkUrl = require('is-http-or-https');
 const url = 'https://example.com';
 
 console.log(checkUrl.protocol(url)); // String => https
-console.log(checkUrl.http(url)); // Boolean => false
-console.log(checkUrl.https(url)); // Boolean => true
+console.log(checkUrl.http(url));     // Boolean => false
+console.log(checkUrl.https(url));    // Boolean => true
 ```
 
 ## 🤝 » Help
