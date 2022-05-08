@@ -1,13 +1,13 @@
 ## 🌍 » What is that?
-**EN:** The package checks the string for a keyword related to http or https.  
-**PL:** Moduł ten sprawdza ciąg znaków pod kątem słowa kluczowego związanego z protokołem http lub https.
+**EN:** This useless packet checks a string for a keyword related to protocol http or https.  
+**PL:** Ten bezużyteczny moduł sprawdza string pod kątem słowa kluczowego związanego protokołem z http lub https.
 
 ## 🤔 » How to install?
 > **$** npm install is-http-or-https
 
 ## 📝 » Examples
 ```js
-const checkUrl = require('./index.js');
+const checkUrl = require('is-http-or-https');
 
 const url = 'https://example.com';
 
