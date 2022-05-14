@@ -1,6 +1,6 @@
 {
   "name": "is-http-or-https",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The package checks the string for a keyword related to http or https.",
   "main": "index.js",
   "scripts": {

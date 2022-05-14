@@ -1,10 +1,11 @@
-exports.protocol = str => {
-	switch (true) {
-	case (/http:\/\//gim).test(str): return 'http';
-	case (/https:\/\//gim).test(str): return 'https';
-	default: return undefined;
-	}
+module.exports = {
+	protocol: str => {
+		switch (true) {
+		case (/http:\/\//gi).test(str): return 'http';
+		case (/https:\/\//gi).test(str): return 'https';
+		default: return undefined;
+		}
+	},
+	http: str => (/http:\/\//gi).test(str),
+	https: str => (/https:\/\//gi).test(str),
 };
-
-exports.http = str => (/http:\/\//gim).test(str);
-exports.https = str => (/https:\/\//gim).test(str);

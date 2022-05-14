@@ -17,4 +17,4 @@ console.log(checkUrl.https(url));    // Boolean => true
 ```
 
 ## 🤝 » Help
-Open new <a href="https://github.com/sefinek24/is-http-or-https/issues/new/choose" target="_blank">Issue</a> on Github.
+Open new [Issue](https://github.com/sefinek24/is-http-or-https/issues/new/choose) on Github.
