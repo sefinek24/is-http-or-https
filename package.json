@@ -16,7 +16,7 @@
     "https",
     "protocol"
   ],
-  "author": "Sefinek",
+  "author": "Sefinek <contact@sefinek.fun>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sefinek24/is-http-or-https/issues"
