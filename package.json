@@ -1,10 +1,11 @@
 {
   "name": "is-http-or-https",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The package checks the string for a keyword related to http or https.",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/sefinek24/is-http-or-https/issues"
   },
-  "homepage": "https://github.com/sefinek24/is-http-or-https#readme"
+  "homepage": "https://github.com/sefinek24/is-http-or-https#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "types": "./index.d.ts"
 }
